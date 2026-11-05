@@ -1,19 +1,19 @@
 /* 이 색상을 바꾸고 다시 배포해 보세요. */
-:root { --primary: #2563eb; }
+:root { --primary: #93c5fd; }
 * { box-sizing: border-box; }
 body {
   margin: 0;
   padding: 60px 20px;
   font-family: Arial, sans-serif;
   text-align: center;
-  color: #1e293b;
-  background: #f1f5f9;
+  color: #f1f5f9;
+  background: #0f172a;
 }
 main {
   max-width: 640px;
   margin: 0 auto;
   padding: 40px 24px;
-  background: white;
+  background: #1e293b;
   border-radius: 16px;
   box-shadow: 0 12px 36px #1e293b0d;
 }
@@ -21,7 +21,7 @@ main {
   display: inline-block;
   padding: 6px 12px;
   border-radius: 20px;
-  background: #eff6ff;
+  background: #334155;
   color: var(--primary);
   font-size: 14px;
 }
@@ -32,7 +32,7 @@ button {
   padding: 12px 24px;
   border: none;
   border-radius: 8px;
-  color: white;
+  color: #0f172a;
   background: var(--primary);
   font-size: 16px;
   cursor: pointer;
@@ -40,11 +40,12 @@ button {
 button:hover { filter: brightness(0.9); }
 button:focus-visible { outline: 3px solid #93c5fd; outline-offset: 4px; }
 #message { min-height: 28px; font-weight: bold; }
-section { margin-top: 24px; padding-top: 16px; border-top: 1px solid #e2e8f0; text-align: left; }
+section { margin-top: 24px; padding-top: 16px; border-top: 1px solid #475569; text-align: left; }
 h2 { font-size: 20px; }
 ul { padding-left: 22px; }
-footer { margin-top: 32px; color: #64748b; font-size: 14px; }
+footer { margin-top: 32px; color: #cbd5e1; font-size: 14px; }
 @media (max-width: 480px) {
   body { padding: 24px 12px; }
   h1 { font-size: 28px; }
 }
+
