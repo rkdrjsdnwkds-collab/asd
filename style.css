@@ -1,0 +1,50 @@
+/* 이 색상을 바꾸고 다시 배포해 보세요. */
+:root { --primary: #2563eb; }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #1e293b;
+  background: #f1f5f9;
+}
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 12px 36px #1e293b0d;
+}
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #eff6ff;
+  color: var(--primary);
+  font-size: 14px;
+}
+h1 { color: var(--primary); }
+p, li { line-height: 1.7; }
+.version { font-weight: bold; }
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background: var(--primary);
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover { filter: brightness(0.9); }
+button:focus-visible { outline: 3px solid #93c5fd; outline-offset: 4px; }
+#message { min-height: 28px; font-weight: bold; }
+section { margin-top: 24px; padding-top: 16px; border-top: 1px solid #e2e8f0; text-align: left; }
+h2 { font-size: 20px; }
+ul { padding-left: 22px; }
+footer { margin-top: 32px; color: #64748b; font-size: 14px; }
+@media (max-width: 480px) {
+  body { padding: 24px 12px; }
+  h1 { font-size: 28px; }
+}
